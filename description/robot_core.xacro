@@ -36,8 +36,7 @@
     <link name="wheel_1">
         <visual>
             <geometry>      
-                <!-- width of wheel assumed to be 3 cm -->
-                <cylinder length="0.03" radius="0.05"/>
+                <cylinder length="0.038" radius="0.05"/>
             </geometry>
             <material name="blue"/>
         </visual>

@@ -15,7 +15,7 @@ Note that each directory currently has at least one file in it to ensure that gi
 
 ## Other useful commands
 
-setup bash with: source install/setup.bash
-launch ROS with: ros2 launch robocock rsp.launch.py
-run rviz with: ros2 run rviz2 rviz2
-run empty joint state publisher with: ros2 run joint_state_publisher_gui joint_state_publisher_gui
+1) setup bash with: source install/setup.bash
+2) launch ROS with: ros2 launch robocock rsp.launch.py
+3) run rviz with: ros2 run rviz2 rviz2
+4) run empty joint state publisher with: ros2 run joint_state_publisher_gui joint_state_publisher_gui

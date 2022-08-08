@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- joints go here -->
+
+    <!-- The rest of the robot can be described from base_link, which is the centre point of the four driving wheels -->
+    <link name="base_link">
+    </link>
+
+</robot>

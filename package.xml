@@ -3,7 +3,7 @@
 <package format="3">
   <name>robocock</name>
   <version>0.0.0</version>
-  <description>Project Robocock is a versatile fully automated high-resolution interior photogrammetry solution</description>
+  <description>Project Robocock is a versatile fully automated high-resolution interior photogrammetry solution.</description>
   <maintainer email="my_email@email.com">MY NAME</maintainer>
   <license>TODO: License declaration</license>
 

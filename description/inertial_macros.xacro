@@ -35,6 +35,9 @@
                     izz="${(1/2) * mass * (radius*radius)}" />
         </inertial>
     </xacro:macro>
-
+<!-- 
+    <xacro:macro name="inertial_robocock_body">
+        <inertial>
+             -->
 
 </robot>

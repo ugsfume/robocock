@@ -15,3 +15,19 @@ Moreover, in the recent rise in [neural radiance field research](https://www.mat
 - [ ]  Add sensors to frame
 - [ ]  Path planning
 - [ ]  Photogrammetry integration
+
+## Setting ups
+
+1) create directory: ~/dev_ws/src
+2) clone this repository under the directory as mentioned
+3) cd to dev_ws
+4) build by entering: colcon build --symlink-install
+
+## Other useful commands
+
+1) setup bash with: source install/setup.bash
+2) launch ROS with: ros2 launch robocock rsp.launch.py
+3) run rviz with: ros2 run rviz2 rviz2
+4) run empty joint state publisher with: ros2 run joint_state_publisher_gui joint_state_publisher_gui
+5) to run gazebo with robot, launch with: ros2 launch robocock launch_sim.launch.py
+

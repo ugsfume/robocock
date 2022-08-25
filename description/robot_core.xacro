@@ -19,9 +19,11 @@
     <link name="chassis">
         <visual>
             <!-- by default, the origin is centred around the link origin, so offset it by half the height -->
-            <origin xyz="0 0 0.75" rpy="0 0 0"/>
+            <!-- <origin xyz="0 0 0.75" rpy="0 0 0"/> -->
             <geometry>
-                <box size="0.54 0.54 1.5"/>
+                <!-- <box size="0.54 0.54 1.5"/> -->
+                <mesh filename="package://robocock/meshes/frame_ultra_low_poly.stl"/>
+                <!-- <mesh filename="model://frame_ultra_low_poly.stl"/> -->
             </geometry>
             <material name="white"/>
         </visual>

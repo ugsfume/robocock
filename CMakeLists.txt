@@ -37,4 +37,18 @@ install(
   DESTINATION share/${PROJECT_NAME}
 )
 
+# the place where gazebo puts the models by default
+set(GAZEBO_MODEL_PATH $ENV{HOME}/.gazebo/models)
+
+# to create folder : /home/user/.gazebo/models/my_robot_description
+add_custom_target(COMMAND cmake -E make_directory ${GAZEBO_MODEL_PATH}/${PROJECT_NAME})
+
+# copy my_robot meshes to gazebo models folder
+install(DIRECTORY meshes
+  DESTINATION ${GAZEBO_MODEL_PATH}/${PROJECT_NAME}
+  FILES_MATCHING PATTERN "*.dae"
+  PATTERN "*.stl"
+  PATTERN "*.png"
+)
+
 ament_package()

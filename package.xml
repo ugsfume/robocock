@@ -15,7 +15,8 @@
   <export>
     <build_type>ament_cmake</build_type>
     <!-- Make sure Gazebo gets access to mesh folder by adding it to the export -->
-    <gazebo_ros gazebo_model_path="${prefix}/share/robocock/meshes"/>
+    <!-- <gazebo_ros gazebo_model_path="${prefix}/share/robocock/meshes"/> -->
+    <!-- <gazebo_ros gazebo_media_path="${prefix}/share/robocock/meshes"/> -->
     <!-- ${prefix} is replaced by the package's share directory in install -->
   </export>
 </package>

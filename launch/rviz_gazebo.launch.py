@@ -43,7 +43,8 @@ def generate_launch_description():
         package='rviz2',
         executable='rviz2',
         arguments=['-d', os.path.join(get_package_share_directory('robocock'), 'launch', 'robocock_visualization.rviz')],
-        output='screen'
+        output='screen',
+        parameters=[params]
     )
 
     # Include the Gazebo launch file, provided by the gazebo_ros package
@@ -67,10 +68,10 @@ def generate_launch_description():
             'use_sim_time',
             default_value='false',
             description='Use sim time if true'),
-
         node_robot_state_publisher,
-        node_joint_state_publisher_gui,
-        node_rviz2,
         gazebo,
         spawn_entity,
+        # node_joint_state_publisher_gui,
+        node_rviz2,
+        
     ])

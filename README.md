@@ -22,6 +22,8 @@ Moreover, in the recent rise in [neural radiance field research](https://www.mat
 2) clone this repository under the directory as mentioned
 3) cd to dev_ws
 4) build by entering: colcon build --symlink-install
+5) install packages: sudo apt install ros-humble-gazebo-ros-pkgs
+                     sudo apt install ros-humble-xacro ros-foxy-joint-state-publisher-gui
 
 ## Other useful commands
 
